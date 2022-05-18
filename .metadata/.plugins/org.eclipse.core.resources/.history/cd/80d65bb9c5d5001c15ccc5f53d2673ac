@@ -1,0 +1,17 @@
+package com.main;
+
+import java.util.Scanner;
+
+public class Q2 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Input a string: ");
+		String num= sc.nextLine();
+		char [] nums = (char) num;
+		String [] nums = sentence.split(" ");
+
+	}
+
+}

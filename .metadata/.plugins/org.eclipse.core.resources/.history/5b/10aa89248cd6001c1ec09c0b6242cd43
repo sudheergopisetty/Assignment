@@ -1,0 +1,25 @@
+package com.service;
+
+import java.util.Iterator;
+
+import com.model.Coin;
+import com.model.Wallet;
+
+public class TotalMoneyInWalletService {
+
+	public int sumOfMoney(Wallet wallet) {
+		
+		int sum= 0;
+		
+		Coin coins= wallet.getCoins();
+		
+		for (Coin coin : coins) {
+			sum+= coin;
+		}
+		
+		notes= wallet.getNotes();
+		
+		return sum;
+		
+	}
+}

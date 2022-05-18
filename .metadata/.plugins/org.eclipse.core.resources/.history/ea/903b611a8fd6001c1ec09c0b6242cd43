@@ -1,0 +1,61 @@
+package com.model;
+
+public class Note {
+
+	private int TenRupeeNote;
+	private int TwentyRupeeNote;
+	private int fiftyRupeeNote;
+	private int hundredRupeeNote;
+	private int fiveHundredRupeeNote;
+
+	public Note(int tenRupeeNote, int twentyRupeeNote, int fiftyRupeeNote, int hundredRupeeNote,
+			int fiveHundredRupeeNote) {
+		super();
+		TenRupeeNote = tenRupeeNote;
+		TwentyRupeeNote = twentyRupeeNote;
+		this.fiftyRupeeNote = fiftyRupeeNote;
+		this.hundredRupeeNote = hundredRupeeNote;
+		this.fiveHundredRupeeNote = fiveHundredRupeeNote;
+	}
+
+	public int getTenRupeeNote() {
+		return TenRupeeNote;
+	}
+
+	public void setTenRupeeNote(int tenRupeeNote) {
+		TenRupeeNote = tenRupeeNote;
+	}
+
+	public int getTwentyRupeeNote() {
+		return TwentyRupeeNote;
+	}
+
+	public void setTwentyRupeeNote(int twentyRupeeNote) {
+		TwentyRupeeNote = twentyRupeeNote;
+	}
+
+	public int getFiftyRupeeNote() {
+		return fiftyRupeeNote;
+	}
+
+	public void setFiftyRupeeNote(int fiftyRupeeNote) {
+		this.fiftyRupeeNote = fiftyRupeeNote;
+	}
+
+	public int getHundredRupeeNote() {
+		return hundredRupeeNote;
+	}
+
+	public void setHundredRupeeNote(int hundredRupeeNote) {
+		this.hundredRupeeNote = hundredRupeeNote;
+	}
+
+	public int getFiveHundredRupeeNote() {
+		return fiveHundredRupeeNote;
+	}
+
+	public void setFiveHundredRupeeNote(int fiveHundredRupeeNote) {
+		this.fiveHundredRupeeNote = fiveHundredRupeeNote;
+	}
+
+}

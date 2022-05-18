@@ -1,0 +1,14 @@
+package com.main;
+
+import java.util.Date;
+
+public class DateAndTime {
+
+	public static void main(String[] args) {
+		Date dateAndTime= new Date();
+		
+		System.out.println(dateAndTime);
+
+	}
+
+}

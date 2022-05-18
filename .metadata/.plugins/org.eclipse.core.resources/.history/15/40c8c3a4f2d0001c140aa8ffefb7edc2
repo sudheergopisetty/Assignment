@@ -1,0 +1,8 @@
+package com.model;
+
+public class EmployeeConstrct {
+	private int empId;
+	private String empName;
+	private float empSalary;
+	private String empContact;
+}

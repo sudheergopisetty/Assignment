@@ -1,0 +1,42 @@
+package com.main;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.model.Coin;
+import com.model.Note;
+import com.model.Wallet;
+import com.service.TotalMoneyInWalletService;
+
+public class WalletApp {
+
+	public static void main(String[] args) {
+
+		Coin coin1= new Coin(10, 5, 3, 3);
+		//Coin coin2= new Coin(5, 12, 6, 7);
+		
+		List<Coin> coins= new ArrayList<Coin>();
+		
+		coins.add(coin1);
+		//coins.add(coin2);
+		
+		Note note1= new Note(10, 2, 4, 7, 5);
+		//Note note2= new Note(5, 4, 7, 2, 9);
+		
+		List<Note> notes= new ArrayList<Note>();
+		
+		notes.add(note1);
+		//notes.add(note2);
+		
+		Wallet wallet1= new Wallet("Mohan", 12, coins, notes);
+		
+		//System.out.println(wallet1.getNotes().size());
+		
+		TotalMoneyInWalletService moneyInWalletService= new TotalMoneyInWalletService();
+		
+		
+		moneyInWalletService.sumOfMoney(wallet1);
+
+	}
+
+}

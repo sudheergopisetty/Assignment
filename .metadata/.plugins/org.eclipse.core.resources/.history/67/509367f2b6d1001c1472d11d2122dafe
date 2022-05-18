@@ -1,0 +1,15 @@
+package com.main;
+
+public class StrBuffer {
+
+	public static void main(String[] args) {
+		StringBuffer strBuffer= new StringBuffer();
+		System.out.println(strBuffer.length());
+		System.out.println(strBuffer.capacity());
+		
+		StringBuilder stringBuilder= new StringBuilder();
+		System.out.println(stringBuilder.length());
+		System.out.println(stringBuilder.capacity());
+	}
+
+}

@@ -1,0 +1,23 @@
+package com.model;
+
+public class Wallet {
+
+	private Set <Coin> coins;
+	private Set<Note> notes;
+	
+	
+	public Set<Coin> getCoins() {
+		return coins;
+	}
+	public void setCoins(Set<Coin> coins) {
+		this.coins = coins;
+	}
+	public Set<Note> getNotes() {
+		return notes;
+	}
+	public void setNotes(Set<Note> notes) {
+		this.notes = notes;
+	}
+	
+	
+}

@@ -1,0 +1,5 @@
+package com.model;
+
+public interface InterfaceDemoScien {
+	public abstract int reminder(int a, int b);
+}

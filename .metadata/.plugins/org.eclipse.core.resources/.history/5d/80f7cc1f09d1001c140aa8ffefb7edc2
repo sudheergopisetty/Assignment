@@ -1,0 +1,10 @@
+package com.service;
+
+import com.model.DepartmentConstruct;
+import com.model.Employee;
+
+public class EmployeCheck {
+	public Employee[] checkEmployeeName(DepartmentConstruct department, String name) {
+		
+	}
+}

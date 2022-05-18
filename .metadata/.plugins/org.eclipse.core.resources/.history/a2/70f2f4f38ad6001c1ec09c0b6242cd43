@@ -1,0 +1,16 @@
+package com.service;
+
+
+
+public class TotalMoneyInWalletService {
+
+	public int sumOfMoney() {
+		
+		int sum= 0;
+		
+		
+		
+		return sum;
+		
+	}
+}

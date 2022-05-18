@@ -1,0 +1,11 @@
+package com.model;
+
+public class Room {
+
+	private int roomNo;
+	private String roomType;
+	private float roomArea;
+	private boolean acMachine;
+	
+	
+}

@@ -1,0 +1,13 @@
+package com.model;
+
+public class Address {
+	private int doorNo;
+	private String street;
+	private String city;
+	
+	public Address() {
+		super();
+	}
+	
+	
+}

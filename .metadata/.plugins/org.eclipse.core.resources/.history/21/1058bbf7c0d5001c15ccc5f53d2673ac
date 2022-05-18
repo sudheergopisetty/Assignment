@@ -1,0 +1,10 @@
+package com.service;
+
+public class CheckLengthyWord {
+
+	public String Check(String sentence) {
+		
+		
+		return null;
+	}
+}

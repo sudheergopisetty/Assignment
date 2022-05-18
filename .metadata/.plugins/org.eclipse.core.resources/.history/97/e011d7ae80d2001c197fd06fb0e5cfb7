@@ -1,0 +1,15 @@
+package com.main;
+
+import com.model.MyCalculator;
+
+public class CalculatorApp {
+
+	public static void main(String[] args) {
+		MyCalculator calculator= new MyCalculator();
+		
+		calculator.add(10, 2000);
+		calculator.sub(23, 20);
+
+	}
+
+}

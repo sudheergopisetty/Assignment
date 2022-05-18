@@ -1,0 +1,21 @@
+package com.main;
+
+import java.util.Scanner;
+
+public class CRUDops {
+
+	public static void main(String[] args) {
+		
+		System.out.println("1- Add, 2- Read, 3- Update, 4- Delete");
+		Scanner scan= new Scanner(System.in);
+		int switchCaseNum = scan.nextInt();
+		switch (switchCaseNum) {
+		case 1:
+			
+			break;
+
+		default:
+			System.out.println("Some Unknown error, please enter as per digit notation in the above");
+		}
+
+}

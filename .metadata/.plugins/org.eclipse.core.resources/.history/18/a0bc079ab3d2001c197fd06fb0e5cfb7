@@ -1,0 +1,18 @@
+package com.main;
+
+import java.lang.Math;
+
+import com.model.InterfaceDemoImpl;
+
+public class MainApp {
+
+	public static void main(String[] args) {
+		InterfaceDemoImpl demo= new InterfaceDemoImpl();
+		
+		System.out.println(demo.add(1, 2));
+		System.out.println(demo.reminder(10, 8));
+		
+		float a = (float) (5*0.5);
+	}
+
+}

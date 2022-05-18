@@ -1,0 +1,56 @@
+package com.service;
+
+import com.model.Coin;
+import com.model.Note;
+import com.model.Wallet;
+
+public class TotalMoneyInWalletService implements TotalMoneyService{
+
+	@Override
+	public int sumOfMoney(Wallet wallet) {
+		
+		int sum= 0;
+		
+		for (Coin coin : wallet.getCoins()) {
+			sum += coin.getOneRupeeCoin();
+			sum += coin.getTwoRupeeCoin()*2;
+			sum += coin.getFiveRupeeCoin()*5;
+			sum += coin.getTenRupeeCoin()*10;
+		}
+		
+		for (Note note : wallet.getNotes()) {
+			sum += note.getTenRupeeNote()*10;
+			sum += note.getTwentyRupeeNote()*20;
+			sum += note.getFiftyRupeeNote()*50;
+			sum += note.getHundredRupeeNote()*100;
+			sum += note.getFiveHundredRupeeNote()*500;
+		}
+		
+		return sum;
+		
+	}
+
+	@Override
+	public int totalNoCoins(Wallet wallet) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int totalNoNotes(Wallet wallet) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int totalSumOfCoins(Wallet wallet) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int totalSumOfNotes(Wallet wallet) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+}

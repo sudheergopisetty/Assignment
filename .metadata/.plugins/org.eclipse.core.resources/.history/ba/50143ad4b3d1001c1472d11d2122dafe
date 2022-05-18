@@ -1,0 +1,18 @@
+package com.main;
+
+public class StringDemo {
+
+	public static void main(String[] args) {
+		String str1= "Mohan Murali Rao";
+		System.out.println("Length of Str1: "+ str1.length());
+		
+		String str2= new String("Mohan Murali Rao");
+		System.out.println("Length of Str1: "+ str2.length());
+		
+		
+		for (int i = str1.length(); i >= 0; i--) {
+			System.out.println(str1.charAt(i));
+		}
+	}
+
+}

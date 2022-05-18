@@ -1,0 +1,10 @@
+package com.main;
+
+public class StrBuffer {
+
+	public static void main(String[] args) {
+		StringBuffer strBuffer= new StringBuffer();
+		System.out.println(strBuffer.length());
+	}
+
+}

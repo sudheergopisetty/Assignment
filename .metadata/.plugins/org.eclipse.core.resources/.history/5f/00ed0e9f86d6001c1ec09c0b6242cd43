@@ -1,0 +1,9 @@
+package com.model;
+
+public class Wallet {
+
+	private Set <Coin> coins;
+	private Set<Note> notes;
+	
+	
+}
