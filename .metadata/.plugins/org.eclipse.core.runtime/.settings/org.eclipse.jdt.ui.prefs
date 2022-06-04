@@ -1,10 +1,17 @@
 content_assist_disabled_computers=org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.jdt.ui.javaPostfixProposalCategory\u0000org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.jdt.ui.javaChainProposalCategory\u0000
 content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="Department"><rhs name\="Department"/></lhs><lhs name\="com.model.PrintNameStat"><rhs name\="com.model.PrintNameStat"/></lhs><lhs name\="com.model.PrintNameDynamic"><rhs name\="com.model.PrintNameDynamic"/></lhs><lhs name\="com.service.AddNumsDynamic"><rhs name\="com.service.AddNumsDynamic"/></lhs><lhs name\="com.model.EmployeeObj"><rhs name\="com.model.EmployeeObj"/></lhs><lhs name\="com.model.Department"><rhs name\="com.model.Department"/></lhs><lhs name\="com.model.Employee"><rhs name\="com.model.Employee"/></lhs><lhs name\="java.lang.CharSequence"><rhs name\="java.lang.String"/><rhs name\="java.lang.StringBuilder"/></lhs><lhs name\="java.lang.AbstractStringBuilder"><rhs name\="java.lang.StringBuilder"/></lhs><lhs name\="java.lang.Appendable"><rhs name\="java.lang.StringBuilder"/></lhs><lhs name\="com.model.Calculator"><rhs name\="com.model.MyCalculator"/></lhs><lhs name\="com.model.MyCalculator"><rhs name\="com.model.MyCalculator"/></lhs><lhs name\="java.util.Iterator"><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.io.Closeable"><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.lang.AutoCloseable"><rhs name\="java.util.Scanner"/></lhs><lhs name\="com.service.Calculator"><rhs name\="com.service.Calculator"/></lhs><lhs name\="com.service.AvgFunction"><rhs name\="com.service.AvgFunction"/></lhs><lhs name\="com.service.PrimeCheck"><rhs name\="com.service.PrimeCheck"/></lhs><lhs name\="com.service.CheckLengthyWord"><rhs name\="com.service.CheckLengthyWord"/></lhs><lhs name\="com.service.SmallestNumFinder"><rhs name\="com.service.SmallestNumFinder"/></lhs><lhs name\="com.service.MiddleChar"><rhs name\="com.service.MiddleChar"/></lhs><lhs name\="com.model.Room"><rhs name\="com.model.Room"/></lhs></history>
-content_assist_number_of_computers=20
+content_assist_number_of_computers=21
 content_assist_proposals_background=255,255,255
 content_assist_proposals_foreground=0,0,0
 eclipse.preferences.version=1
-org.eclipse.jdt.ui.formatterprofiles.version=21
+fontPropagated=true
+org.eclipse.jdt.ui.editor.tab.width=
+org.eclipse.jdt.ui.formatterprofiles.version=22
+org.eclipse.jdt.ui.javadoclocations.migrated=true
+org.eclipse.jface.textfont=1|Courier New|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Courier New;
+proposalOrderMigrated=true
 spelling_locale_initialized=true
+tabWidthPropagated=true
+typefilter_migrated_2=true
 useAnnotationsPrefPage=true
 useQuickDiffPrefPage=true
